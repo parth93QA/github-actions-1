@@ -40,4 +40,4 @@ jobs:
               run: docker info
             
             - name: Run Images
-              run: docker run ${{ matrix.image }}
+              run: docker run ${{ matrix.images }}
