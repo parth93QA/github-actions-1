@@ -23,4 +23,4 @@ jobs:
     hello:
         runs-on: ubuntu-latest
         steps:
-            - run: echo this workflow is executed for - $ {{ github.event_name }}
+            - run: echo this workflow is executed for - ${{ github.event_name }}
